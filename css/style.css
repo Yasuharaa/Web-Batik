@@ -1,0 +1,33 @@
+
+body{
+    width: 100%;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.container .carousel{
+    margin-top: 20px;
+}
+h3{
+    padding: 20px;
+}
+.col{
+    padding: 20px;
+}
+.col p{
+    color: black;
+}
+.baru .card:hover{
+    transform: scale(1.15);
+    transition: all 0.3s;
+}
+.unggulan .card:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+@media only screen and (max-width: 600px) {
+    iframe{
+        width: 350px;
+    }
+  }
